@@ -1,0 +1,22 @@
+{
+  "name": "XDPhoto",
+  "version": "0.1.0",
+  "summary": "A short description of XDPhoto.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/xjydev@163.com/XDPhoto",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "xjydev@163.com": "jingyuan.xiao@haiwaifenqi.com"
+  },
+  "source": {
+    "git": "https://github.com/xjydev@163.com/XDPhoto.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XDPhoto/Classes/**/*"
+}

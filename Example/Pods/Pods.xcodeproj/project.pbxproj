@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A61C3067BD9E2279CB5FE59404FBE47 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1C937D94333C90E2ACD66FCCE72FD2F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1FCFCAE1ED2E780F7BF751AF864AE4EE /* Pods-XDPhoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBFED6E51AD31305042B1401B4139B6 /* Pods-XDPhoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E3F1634F1591B2C4D56E43ADD57FC3D /* Pods-XDPhoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A895B3646768441C392A311995F2184A /* Pods-XDPhoto_Example-dummy.m */; };
+		4EB6905AFFAF2482F31445B5CA686FB9 /* Pods-XDPhoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB283BBD119560F295AB481AE00D76F /* Pods-XDPhoto_Tests-dummy.m */; };
+		6C8C159C21ABE17500AC754A /* XDPhotoBrowerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8C159A21ABE17500AC754A /* XDPhotoBrowerViewController.h */; };
+		6C8C159D21ABE17500AC754A /* XDPhotoBrowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C159B21ABE17500AC754A /* XDPhotoBrowerViewController.m */; };
+		6C8C15A021ABE18700AC754A /* XDPhotoListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8C159E21ABE18700AC754A /* XDPhotoListViewController.h */; };
+		6C8C15A121ABE18700AC754A /* XDPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C159F21ABE18700AC754A /* XDPhotoListViewController.m */; };
+		6C8C15A421ABE19700AC754A /* XDPhotoPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8C15A221ABE19700AC754A /* XDPhotoPickerViewController.h */; };
+		6C8C15A521ABE19700AC754A /* XDPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C15A321ABE19700AC754A /* XDPhotoPickerViewController.m */; };
+		704965528D60335FBB9E009F08BFE4C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		777806024585AB5EBFFAA84F10233E51 /* XDPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8620F8C60CB7299BF510DD066CB19F /* XDPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9596FF7C6725A93EAFB9852788C7089A /* Pods-XDPhoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB0FE9009E848EE871DC5EB7FFDC6A6 /* Pods-XDPhoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCE4DAAF7ABD8AC35CFE9F938DFA37AB /* XDPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 395B3B2D00D69F89B3DD7D24EFB688BE /* XDPhoto-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		309320FA4BE9DD0F21BDAF49A6360C5B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F17EABBDA652D47608A3681F863A16B5;
+			remoteInfo = XDPhoto;
+		};
+		AC63AB53B7B34B22B9006B1581F51961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E41F98B913FFFB341666F7DB1FF7D7;
+			remoteInfo = "Pods-XDPhoto_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A8454BB286F11EA899B4B245BB62C87 /* XDPhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDPhoto.modulemap; sourceTree = "<group>"; };
+		15E4A3A1A5C6DF18A67354670C5A291B /* Pods_XDPhoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDPhoto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2136F84292B824EAB420DBB8F678A5E9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30BB4347D53427D626FE6BAC95842FDE /* Pods-XDPhoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDPhoto_Example.release.xcconfig"; sourceTree = "<group>"; };
+		395B3B2D00D69F89B3DD7D24EFB688BE /* XDPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDPhoto-dummy.m"; sourceTree = "<group>"; };
+		3D5D18707F5695ADFE5B7F21EA354A59 /* Pods-XDPhoto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDPhoto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		417CBA08808EC39283E8E580833263D7 /* Pods-XDPhoto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDPhoto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		479A43ECC7F803BD9F221D54B523E5F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54CEF84A83911E59B0BB36D547D530F3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5BB283BBD119560F295AB481AE00D76F /* Pods-XDPhoto_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDPhoto_Tests-dummy.m"; sourceTree = "<group>"; };
+		5D26CD8129D7D90002DBDB9618E51BE2 /* XDPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XDPhoto.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68BA8C7EAFBCD272C6E32EF4316C9EF4 /* Pods-XDPhoto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDPhoto_Example-resources.sh"; sourceTree = "<group>"; };
+		6C8C159A21ABE17500AC754A /* XDPhotoBrowerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowerViewController.h; sourceTree = "<group>"; };
+		6C8C159B21ABE17500AC754A /* XDPhotoBrowerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowerViewController.m; sourceTree = "<group>"; };
+		6C8C159E21ABE18700AC754A /* XDPhotoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPhotoListViewController.h; sourceTree = "<group>"; };
+		6C8C159F21ABE18700AC754A /* XDPhotoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPhotoListViewController.m; sourceTree = "<group>"; };
+		6C8C15A221ABE19700AC754A /* XDPhotoPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPhotoPickerViewController.h; sourceTree = "<group>"; };
+		6C8C15A321ABE19700AC754A /* XDPhotoPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPhotoPickerViewController.m; sourceTree = "<group>"; };
+		6D2220042737F30707A9B5BF0CDD48E1 /* Pods-XDPhoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDPhoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7CAF9F04F6D3A329D78101DFCF51F2BF /* Pods-XDPhoto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDPhoto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7F89E5F98EE8267667A35BAC8A135351 /* Pods-XDPhoto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDPhoto_Tests.modulemap"; sourceTree = "<group>"; };
+		872DAF01DC211F06E8C03EF9D5ADDABD /* Pods-XDPhoto_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDPhoto_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89B1FC11C297236A8C68EB98AACF1028 /* Pods-XDPhoto_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDPhoto_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F161785C6609D243ED4102036E70938 /* Pods-XDPhoto_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDPhoto_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9288E77F011C299E7DD84BE821D32D49 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A895B3646768441C392A311995F2184A /* Pods-XDPhoto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDPhoto_Example-dummy.m"; sourceTree = "<group>"; };
+		AE8620F8C60CB7299BF510DD066CB19F /* XDPhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDPhoto-umbrella.h"; sourceTree = "<group>"; };
+		C57016B2FF43B9C71FB616A6933584EB /* Pods-XDPhoto_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDPhoto_Tests-resources.sh"; sourceTree = "<group>"; };
+		C62F6C1896132F03062ED645CE067DC9 /* XDPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XDPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C679A3E34C683F16432A0631F313082F /* Pods-XDPhoto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDPhoto_Example.modulemap"; sourceTree = "<group>"; };
+		CCB0FE9009E848EE871DC5EB7FFDC6A6 /* Pods-XDPhoto_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDPhoto_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CD0400DB6FEB7C976D9CEE98FBC07902 /* XDPhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDPhoto.xcconfig; sourceTree = "<group>"; };
+		D9967D3BAD82FDEC88FF800783540E5C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DC08AC2E2C14D9C85872D3D74AF643B7 /* Pods_XDPhoto_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDPhoto_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDBFED6E51AD31305042B1401B4139B6 /* Pods-XDPhoto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDPhoto_Example-umbrella.h"; sourceTree = "<group>"; };
+		E0DBAD76A9873E8BA3AD2945D32B102F /* Pods-XDPhoto_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDPhoto_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E29330DCB57DF6F02FD7D236E4F804F3 /* XDPhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDPhoto-prefix.pch"; sourceTree = "<group>"; };
+		EC04936909EA9B054D015A0A6A3AB46A /* Pods-XDPhoto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDPhoto_Example-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11714FA716F9F4557B0DBD417B8BF673 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				704965528D60335FBB9E009F08BFE4C8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66212F75E68DF8FCF9105E84B49F5994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C937D94333C90E2ACD66FCCE72FD2F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3E64A2F8196556B9901DCAE7F51E1FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A61C3067BD9E2279CB5FE59404FBE47 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1405DF2DD6697E7EB985EB3E98859EA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15E4A3A1A5C6DF18A67354670C5A291B /* Pods_XDPhoto_Example.framework */,
+				DC08AC2E2C14D9C85872D3D74AF643B7 /* Pods_XDPhoto_Tests.framework */,
+				C62F6C1896132F03062ED645CE067DC9 /* XDPhoto.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E823169A064C1EECF379E16FF5F2FD /* Pods-XDPhoto_Example */ = {
+			isa = PBXGroup;
+			children = (
+				479A43ECC7F803BD9F221D54B523E5F9 /* Info.plist */,
+				C679A3E34C683F16432A0631F313082F /* Pods-XDPhoto_Example.modulemap */,
+				3D5D18707F5695ADFE5B7F21EA354A59 /* Pods-XDPhoto_Example-acknowledgements.markdown */,
+				417CBA08808EC39283E8E580833263D7 /* Pods-XDPhoto_Example-acknowledgements.plist */,
+				A895B3646768441C392A311995F2184A /* Pods-XDPhoto_Example-dummy.m */,
+				EC04936909EA9B054D015A0A6A3AB46A /* Pods-XDPhoto_Example-frameworks.sh */,
+				68BA8C7EAFBCD272C6E32EF4316C9EF4 /* Pods-XDPhoto_Example-resources.sh */,
+				DDBFED6E51AD31305042B1401B4139B6 /* Pods-XDPhoto_Example-umbrella.h */,
+				6D2220042737F30707A9B5BF0CDD48E1 /* Pods-XDPhoto_Example.debug.xcconfig */,
+				30BB4347D53427D626FE6BAC95842FDE /* Pods-XDPhoto_Example.release.xcconfig */,
+			);
+			name = "Pods-XDPhoto_Example";
+			path = "Target Support Files/Pods-XDPhoto_Example";
+			sourceTree = "<group>";
+		};
+		4708EAF4A297D329466F03D75A0736B1 /* Pods-XDPhoto_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9288E77F011C299E7DD84BE821D32D49 /* Info.plist */,
+				7F89E5F98EE8267667A35BAC8A135351 /* Pods-XDPhoto_Tests.modulemap */,
+				872DAF01DC211F06E8C03EF9D5ADDABD /* Pods-XDPhoto_Tests-acknowledgements.markdown */,
+				7CAF9F04F6D3A329D78101DFCF51F2BF /* Pods-XDPhoto_Tests-acknowledgements.plist */,
+				5BB283BBD119560F295AB481AE00D76F /* Pods-XDPhoto_Tests-dummy.m */,
+				E0DBAD76A9873E8BA3AD2945D32B102F /* Pods-XDPhoto_Tests-frameworks.sh */,
+				C57016B2FF43B9C71FB616A6933584EB /* Pods-XDPhoto_Tests-resources.sh */,
+				CCB0FE9009E848EE871DC5EB7FFDC6A6 /* Pods-XDPhoto_Tests-umbrella.h */,
+				89B1FC11C297236A8C68EB98AACF1028 /* Pods-XDPhoto_Tests.debug.xcconfig */,
+				8F161785C6609D243ED4102036E70938 /* Pods-XDPhoto_Tests.release.xcconfig */,
+			);
+			name = "Pods-XDPhoto_Tests";
+			path = "Target Support Files/Pods-XDPhoto_Tests";
+			sourceTree = "<group>";
+		};
+		5EF871D1EA7D35BECFC105EA16C935EA /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E823169A064C1EECF379E16FF5F2FD /* Pods-XDPhoto_Example */,
+				4708EAF4A297D329466F03D75A0736B1 /* Pods-XDPhoto_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		629852D5267911F9F34582700D8CEE34 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3D29A8F3ED67A3674253E3C417C77B6 /* XDPhoto */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6C8C159721ABE15F00AC754A /* XDPhotoList */ = {
+			isa = PBXGroup;
+			children = (
+				6C8C159E21ABE18700AC754A /* XDPhotoListViewController.h */,
+				6C8C159F21ABE18700AC754A /* XDPhotoListViewController.m */,
+			);
+			name = XDPhotoList;
+			path = XDPhoto/Classes/XDPhotoList;
+			sourceTree = "<group>";
+		};
+		6C8C159821ABE15F00AC754A /* XDPhotoBrower */ = {
+			isa = PBXGroup;
+			children = (
+				6C8C159A21ABE17500AC754A /* XDPhotoBrowerViewController.h */,
+				6C8C159B21ABE17500AC754A /* XDPhotoBrowerViewController.m */,
+			);
+			name = XDPhotoBrower;
+			path = XDPhoto/Classes/XDPhotoBrower;
+			sourceTree = "<group>";
+		};
+		6C8C159921ABE15F00AC754A /* XDPhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6C8C15A221ABE19700AC754A /* XDPhotoPickerViewController.h */,
+				6C8C15A321ABE19700AC754A /* XDPhotoPickerViewController.m */,
+			);
+			name = XDPhotoPicker;
+			path = XDPhoto/Classes/XDPhotoPicker;
+			sourceTree = "<group>";
+		};
+		7745D6D73CD24FEFFAD7EA141B74DCE5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				54CEF84A83911E59B0BB36D547D530F3 /* LICENSE */,
+				D9967D3BAD82FDEC88FF800783540E5C /* README.md */,
+				5D26CD8129D7D90002DBDB9618E51BE2 /* XDPhoto.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				629852D5267911F9F34582700D8CEE34 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				1405DF2DD6697E7EB985EB3E98859EA7 /* Products */,
+				5EF871D1EA7D35BECFC105EA16C935EA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F3D29A8F3ED67A3674253E3C417C77B6 /* XDPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				6C8C159821ABE15F00AC754A /* XDPhotoBrower */,
+				6C8C159721ABE15F00AC754A /* XDPhotoList */,
+				6C8C159921ABE15F00AC754A /* XDPhotoPicker */,
+				7745D6D73CD24FEFFAD7EA141B74DCE5 /* Pod */,
+				FCDF577075F7A7691E4ECCF564F6CBBA /* Support Files */,
+			);
+			name = XDPhoto;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FCDF577075F7A7691E4ECCF564F6CBBA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2136F84292B824EAB420DBB8F678A5E9 /* Info.plist */,
+				0A8454BB286F11EA899B4B245BB62C87 /* XDPhoto.modulemap */,
+				CD0400DB6FEB7C976D9CEE98FBC07902 /* XDPhoto.xcconfig */,
+				395B3B2D00D69F89B3DD7D24EFB688BE /* XDPhoto-dummy.m */,
+				E29330DCB57DF6F02FD7D236E4F804F3 /* XDPhoto-prefix.pch */,
+				AE8620F8C60CB7299BF510DD066CB19F /* XDPhoto-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XDPhoto";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		13ECC7B6636E5B0C80BFB1B17B17EA0C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9596FF7C6725A93EAFB9852788C7089A /* Pods-XDPhoto_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A8CFC235FCAE2D68F455C545349C94D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				777806024585AB5EBFFAA84F10233E51 /* XDPhoto-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E71BD09CE4FB4191C6E0DC3E30C2B84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FCFCAE1ED2E780F7BF751AF864AE4EE /* Pods-XDPhoto_Example-umbrella.h in Headers */,
+				6C8C159C21ABE17500AC754A /* XDPhotoBrowerViewController.h in Headers */,
+				6C8C15A421ABE19700AC754A /* XDPhotoPickerViewController.h in Headers */,
+				6C8C15A021ABE18700AC754A /* XDPhotoListViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15E41F98B913FFFB341666F7DB1FF7D7 /* Pods-XDPhoto_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E17B7E6B8EB9B046DDDE4787ED7B1A7A /* Build configuration list for PBXNativeTarget "Pods-XDPhoto_Example" */;
+			buildPhases = (
+				5F9CDB24D3B873BE44B53A429DC6FE90 /* Sources */,
+				A3E64A2F8196556B9901DCAE7F51E1FE /* Frameworks */,
+				2E71BD09CE4FB4191C6E0DC3E30C2B84 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				454427F4FA9C9408CE98E618873E8237 /* PBXTargetDependency */,
+			);
+			name = "Pods-XDPhoto_Example";
+			productName = "Pods-XDPhoto_Example";
+			productReference = 15E4A3A1A5C6DF18A67354670C5A291B /* Pods_XDPhoto_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFBAC24C01BD67F3317F0A8ACC9B7513 /* Pods-XDPhoto_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AD8EC5CF46EAE1FACCAB7FC18F94C53 /* Build configuration list for PBXNativeTarget "Pods-XDPhoto_Tests" */;
+			buildPhases = (
+				8B03015F12367F655C9D682C00C73AEC /* Sources */,
+				66212F75E68DF8FCF9105E84B49F5994 /* Frameworks */,
+				13ECC7B6636E5B0C80BFB1B17B17EA0C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A8F407CD2C388CBB0DE83C3BA2B3D3F /* PBXTargetDependency */,
+			);
+			name = "Pods-XDPhoto_Tests";
+			productName = "Pods-XDPhoto_Tests";
+			productReference = DC08AC2E2C14D9C85872D3D74AF643B7 /* Pods_XDPhoto_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F17EABBDA652D47608A3681F863A16B5 /* XDPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6DA25EE3D73670606ED33615399E465 /* Build configuration list for PBXNativeTarget "XDPhoto" */;
+			buildPhases = (
+				64765BE9E2525C96672D4DA422646D6E /* Sources */,
+				11714FA716F9F4557B0DBD417B8BF673 /* Frameworks */,
+				1A8CFC235FCAE2D68F455C545349C94D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XDPhoto;
+			productName = XDPhoto;
+			productReference = C62F6C1896132F03062ED645CE067DC9 /* XDPhoto.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1405DF2DD6697E7EB985EB3E98859EA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15E41F98B913FFFB341666F7DB1FF7D7 /* Pods-XDPhoto_Example */,
+				CFBAC24C01BD67F3317F0A8ACC9B7513 /* Pods-XDPhoto_Tests */,
+				F17EABBDA652D47608A3681F863A16B5 /* XDPhoto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F9CDB24D3B873BE44B53A429DC6FE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C8C159D21ABE17500AC754A /* XDPhotoBrowerViewController.m in Sources */,
+				3E3F1634F1591B2C4D56E43ADD57FC3D /* Pods-XDPhoto_Example-dummy.m in Sources */,
+				6C8C15A121ABE18700AC754A /* XDPhotoListViewController.m in Sources */,
+				6C8C15A521ABE19700AC754A /* XDPhotoPickerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64765BE9E2525C96672D4DA422646D6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE4DAAF7ABD8AC35CFE9F938DFA37AB /* XDPhoto-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B03015F12367F655C9D682C00C73AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB6905AFFAF2482F31445B5CA686FB9 /* Pods-XDPhoto_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		454427F4FA9C9408CE98E618873E8237 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XDPhoto;
+			target = F17EABBDA652D47608A3681F863A16B5 /* XDPhoto */;
+			targetProxy = 309320FA4BE9DD0F21BDAF49A6360C5B /* PBXContainerItemProxy */;
+		};
+		5A8F407CD2C388CBB0DE83C3BA2B3D3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XDPhoto_Example";
+			target = 15E41F98B913FFFB341666F7DB1FF7D7 /* Pods-XDPhoto_Example */;
+			targetProxy = AC63AB53B7B34B22B9006B1581F51961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		634EF9B2D582CD03097AE315420EB2A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89B1FC11C297236A8C68EB98AACF1028 /* Pods-XDPhoto_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDPhoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XDPhoto_Tests/Pods-XDPhoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E66F971A9D37CB0317443CA78A245CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30BB4347D53427D626FE6BAC95842FDE /* Pods-XDPhoto_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDPhoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XDPhoto_Example/Pods-XDPhoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A1BFC2D7EBBAA6CE8D2BBB8167AD7ADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0400DB6FEB7C976D9CEE98FBC07902 /* XDPhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XDPhoto/XDPhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XDPhoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XDPhoto/XDPhoto.modulemap";
+				PRODUCT_MODULE_NAME = XDPhoto;
+				PRODUCT_NAME = XDPhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A2AD4B06076BE9E807C7714124071F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD0400DB6FEB7C976D9CEE98FBC07902 /* XDPhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XDPhoto/XDPhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XDPhoto/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XDPhoto/XDPhoto.modulemap";
+				PRODUCT_MODULE_NAME = XDPhoto;
+				PRODUCT_NAME = XDPhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DE4FDC52E517B79E01E5AE6EDB2D123A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F161785C6609D243ED4102036E70938 /* Pods-XDPhoto_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDPhoto_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XDPhoto_Tests/Pods-XDPhoto_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F390A4BF9B7F8211AF0D2D005EEE14FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2220042737F30707A9B5BF0CDD48E1 /* Pods-XDPhoto_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XDPhoto_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XDPhoto_Example/Pods-XDPhoto_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AD8EC5CF46EAE1FACCAB7FC18F94C53 /* Build configuration list for PBXNativeTarget "Pods-XDPhoto_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				634EF9B2D582CD03097AE315420EB2A9 /* Debug */,
+				DE4FDC52E517B79E01E5AE6EDB2D123A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E17B7E6B8EB9B046DDDE4787ED7B1A7A /* Build configuration list for PBXNativeTarget "Pods-XDPhoto_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F390A4BF9B7F8211AF0D2D005EEE14FA /* Debug */,
+				7E66F971A9D37CB0317443CA78A245CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6DA25EE3D73670606ED33615399E465 /* Build configuration list for PBXNativeTarget "XDPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1BFC2D7EBBAA6CE8D2BBB8167AD7ADC /* Debug */,
+				A2AD4B06076BE9E807C7714124071F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

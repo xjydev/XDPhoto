@@ -1,0 +1,16 @@
+PODS:
+  - XDPhoto (0.1.0)
+
+DEPENDENCIES:
+  - XDPhoto (from `../`)
+
+EXTERNAL SOURCES:
+  XDPhoto:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XDPhoto: c411950aac3445b60501dd9ae7c3be054b5872cd
+
+PODFILE CHECKSUM: 9e31b6c5bc660cfb04479a8ef49056d3fc1f2761
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'XDPhoto_Example' do
+    
+  pod 'XDPhoto', :path => '../'
+  
+  target 'XDPhoto_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
