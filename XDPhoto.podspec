@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
      'XDPhoto' => ['XDPhoto/Assets/*']
    }
 
-   s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'XDPhoto/Classes/**/*.h'
    s.frameworks = 'UIKit', 'Photos', 'AssetsLibrary'
    s.dependency 'XDTools', '~> 0.2.0'
 end
