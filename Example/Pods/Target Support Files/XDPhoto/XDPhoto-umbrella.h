@@ -15,7 +15,6 @@
 #import "XDSelectItemViewController.h"
 #import "XDPhoto.h"
 #import "XDPhotoBrowerCoCell.h"
-#import "XDPhotoBrowerViewController.h"
 #import "XDPhotoPicker.h"
 #import "XDPhotoPickerCoCell.h"
 

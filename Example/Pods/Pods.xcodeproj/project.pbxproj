@@ -7,54 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0821D6DDDE5158F8192BD4882FEC8DC1 /* photo_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8BA79DAAA189FC942D151E33B0ED967 /* photo_down@2x.png */; };
-		0A327198799931287EF028D519B44258 /* XDPhoto.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84256BB9A9BA3C0A61FBACDE05218D5A /* XDPhoto.bundle */; };
-		0A4BF02FA300AD646BA99BA60A362BEF /* photo_unselect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A65DB7906F624FEF3BDE23CE946DE37 /* photo_unselect@3x.png */; };
-		0DFED955BD760E233F1A97030D750523 /* NSString+XDPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = E05166279C8E25C4D634925BD321FDED /* NSString+XDPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13C0586D6CAADB93ABF79BAAED7A5C94 /* XDPhotoPickerCoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E97AB828AFA3CA8B93419D2FDC0D9589 /* XDPhotoPickerCoCell.m */; };
-		1DBB266DD3F39B6643173195EEE4C11E /* XDPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = A1D61C396EA8895A990850F8D6C2ED1E /* XDPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		043B22E62B17582A7D100E0B14242C42 /* photo_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5F962BC5CEECE0298B25F95223A51EC /* photo_selected@3x.png */; };
+		106A760C8FBA3FCB7ADFBF1053860BBC /* zh.ll in Resources */ = {isa = PBXBuildFile; fileRef = 1CCC9F86CE4C8649F41DC155D60ABE81 /* zh.ll */; };
+		10AB9AB5122A13B6889892E54E6CE727 /* photo_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 02346381FC9BAF6807BA2B9838B3AF78 /* photo_down@3x.png */; };
+		12E0BA28E28AE5F1030D60F097C989F3 /* photo_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6323BD19D6B7DD473E592C96C0F4A272 /* photo_selected@2x.png */; };
+		16E8B104114EB3FE6BF4AAF152058DBC /* NSString+XDPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = D835EDAC95A402DBF998F70B4415E980 /* NSString+XDPhoto.m */; };
+		1EFED1AC07009F0245FCC0BA180CF584 /* XDPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 974CD64AE5AD8E1DF6512F9A764F2D06 /* XDPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF9328B1A03F6415E546156E924744D /* XDPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECFE7E1CD0DEB221D75C43C038EB891 /* XDPhoto.m */; };
 		2C41A4CBE889285B0D9070DAE1FC5547 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77724B89CB5C2226200DD89F16F0834 /* Foundation.framework */; };
-		2E7E2B0A611D6CF7A0449C572A404CD1 /* photo_unselect_b@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCCC5CF78B6922C5A094B08870D905A9 /* photo_unselect_b@3x.png */; };
-		3316093F40A12671F68422ECB69812E4 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B7EBF45205BEAEE2A823C929957540 /* Photos.framework */; };
-		361AA002FC300F7B869E34D056EEC2CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77724B89CB5C2226200DD89F16F0834 /* Foundation.framework */; };
-		43B81859D21F7BA4AFA1F04D365719C8 /* photo_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AE36C8A8291A8844477A37B300371B02 /* photo_up@3x.png */; };
+		2D565415FE0BC5F97BACD640C7EAC111 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B7EBF45205BEAEE2A823C929957540 /* Photos.framework */; };
+		3B28634F0D073E7A305AD7E8F1DAA10B /* photo_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E49019B457EA473ED090801368331AE /* photo_up@2x.png */; };
+		3F93E2A3A2488CFBB2D0DE0EE31E637C /* en.ll in Resources */ = {isa = PBXBuildFile; fileRef = 9D3CA996B5384A5D26F1E140B7F797E5 /* en.ll */; };
 		4540FEEACEF93ED38C2BD268D0BDF9AF /* Pods-XDPhoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3FA1F8B8D7532623919A7E514EEB07 /* Pods-XDPhoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4A929B98728C4BE76C4F9515F4D4034F /* UIImage+XDPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C5A1B0F52D40BADD287C7CAFECA4C69 /* UIImage+XDPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5BFCC4840FAA80F47B42D9F86BE46443 /* XDSelectItemViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 009E33DA5093F9D78B712F5AD5A21C50 /* XDSelectItemViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51EF05DB916147174AD8AD08BFCE8B7E /* photo_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C832E6EFC7EE8B7288D2C4C249C8D1D9 /* photo_up@3x.png */; };
+		583DAA86C84A30F420A88EB60A9ACFA3 /* image_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 318EAC9F35240F75BF6DF8878B7B9C4F /* image_video@2x.png */; };
 		5F2AC749A1871B83127FA566A517F21F /* Pods-XDPhoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB434FBA918DA29694C1F4E509EAA01 /* Pods-XDPhoto_Example-dummy.m */; };
-		6126DF6CF79280D718452987114FD019 /* photo_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E2F5B2DAC4668CE73B47FBDDAEE60CE /* photo_selected@3x.png */; };
-		63DCD5E996C944CC00DA9771A78CB3C3 /* photo_unselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F31D356ADDD4C0C072866FDCB7871DC7 /* photo_unselect@2x.png */; };
-		706A856FE2651014D53C911029A717C7 /* XDPhotoPickerCoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 79473E4611DC279A588D17874E53EA73 /* XDPhotoPickerCoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7730ADFDF7D970C0A26C0C4047478781 /* XDPhotoBrowerCoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FCF511860DED5C430AA5E816C38329 /* XDPhotoBrowerCoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C279CF762AF7ED59D474E8E9F10D823 /* XDPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 55BF4E551B6D70F69A7E8712B31E3062 /* XDPhotoPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CEF7CE86BB95CDBE64C4A0C3D1A69EB /* XDPhotoBrowerCoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A68477DB739D87A2864B01E994E3896E /* XDPhotoBrowerCoCell.m */; };
-		8A15A982245EC397D5DC43A826BE578B /* zh.ll in Resources */ = {isa = PBXBuildFile; fileRef = D2C25A65B8BFA0C47BC922D48181D6FE /* zh.ll */; };
-		9AE08424592C3A14F733C596E2277C68 /* XDSelectItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF47B14138F5E79FA9B8DB754792CDF /* XDSelectItemViewController.m */; };
-		9DE4BD0B2DD9BC519AB9857E526F11E8 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BB57596A1F540BFEB4AE9E5E7205D5 /* AssetsLibrary.framework */; };
-		A5DFD75B1D189902DA071FFF565DBDFF /* photo_unselect_b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C62B689F2724069C47991AFDCB2FF62 /* photo_unselect_b@2x.png */; };
-		A8CB6F3882633FDC98B41418AC0142B3 /* image_video@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85E2665EC81D24288F4DA3A5A41D1FE4 /* image_video@2x.png */; };
-		A967FBF2550D1DCEDD98342F36EFC291 /* photo_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79F9723F34DA3E47FAD54D71D159353A /* photo_selected@2x.png */; };
-		B060A8944FC1C0F641194779FC022525 /* XDPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 60B39F17D279BEC597FA79E90CF46D5F /* XDPhoto.m */; };
-		C02096CC887F5CD2C7D33CE85FA1C597 /* UIImage+XDPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AACD65F843067FB4778EC39619F11F5 /* UIImage+XDPhoto.m */; };
-		C2BA95C49774AE0F7496C08B59C28A4B /* photo_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FE1B47F293A9800BFBF45B73A1CFBC28 /* photo_down@3x.png */; };
-		C44E6DEB53C0EC5E02F44F6F24F346D1 /* XDPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E9FF618FCAE66D2C39091E6447904EE /* XDPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5F771CA8D387C12FDAA5A3A801D9BF7 /* image_video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C53933D59D5407CDA9AA3B3823CDFE /* image_video@3x.png */; };
-		D84E2984027258098C10B98DB9CCECBF /* NSString+XDPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CAE3C7A3B094936C6648289BFA6A404 /* NSString+XDPhoto.m */; };
-		DBFC18A2F458DA13362965D8424FC6FF /* en.ll in Resources */ = {isa = PBXBuildFile; fileRef = FB91716C50368462BE35E534F1B2AB99 /* en.ll */; };
-		E29C638F15E177A8B578EEA44012F6F8 /* XDPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C83A922FA13CD87979BFBB6873B6682C /* XDPhoto-dummy.m */; };
-		EE7B14ABE9CA76E09980B50344A46095 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092C1A6520BFDEB40A0DC9832D306616 /* UIKit.framework */; };
-		F7393F8DAD754A149408417EC1158B78 /* photo_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EED4A60EA41C6A78D22C1288AAE6098 /* photo_up@2x.png */; };
-		FA017DFBADDFC8A836AE25AA564D9E42 /* XDPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C6E3AF0B3CF4836CE1B962FDAB047 /* XDPhotoPicker.m */; };
+		625117E6B6A617A24EEC23B5EBDD9726 /* XDPhoto.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84256BB9A9BA3C0A61FBACDE05218D5A /* XDPhoto.bundle */; };
+		6A407A0335F0753CC3FCC366D3A2F827 /* photo_unselect_b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29CA636825665358D1A893F9045FF546 /* photo_unselect_b@2x.png */; };
+		6A727F6FEC22CFAC0EE32E56019E6035 /* XDPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 06451F148D068ED502C022E210FBCFA9 /* XDPhotoPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C6EB3A9ADD1D51B3E689571049D4D25 /* XDPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FA4A94B5E648E09F70E3DD15B8A83E7 /* XDPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CFCDAEA0CFCFBD2FD43E6FC4CABAC3F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1BB57596A1F540BFEB4AE9E5E7205D5 /* AssetsLibrary.framework */; };
+		6F34E994FE8210432083314387B5F2E4 /* UIImage+XDPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = E56CD9ED867E4891955E4A7F0BAE36B2 /* UIImage+XDPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A94C16164E1BB1E6BC4B9D1BCD5D3B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092C1A6520BFDEB40A0DC9832D306616 /* UIKit.framework */; };
+		7AC16D17698E7372516987F9458CB7BA /* image_video@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2038175FD9E42C115A779E12B96833 /* image_video@3x.png */; };
+		7EEDEEF278DA6CAE16F37648362412D2 /* photo_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96FE2712D0C1B86FD6B28A0740066F05 /* photo_down@2x.png */; };
+		8E31C334A5B7BA2C0B78F894CAD28E33 /* UIImage+XDPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 98391F67E245A441BC2354F41DD397FA /* UIImage+XDPhoto.m */; };
+		937C5B127643F107220E907314B01A45 /* XDPhotoBrowerCoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F7146ECAE7D1DF535ABDE4E27F47483B /* XDPhotoBrowerCoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95C311A7B629961640ADA70BD8BA6021 /* XDPhoto-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD05084BD504D9DDC06BC9CB178F0F2F /* XDPhoto-dummy.m */; };
+		A2AA01DA6D864AF152C357F86507E19D /* XDSelectItemViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 488D82F82D3992317D25BBF4109B0EFE /* XDSelectItemViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7CDC6D8B77330DBC18CF055CDA906C3 /* XDSelectItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A9CE4E05091D12524A7D5CF074F391 /* XDSelectItemViewController.m */; };
+		B9EC572BA6FFC10FE28BA75A8A9BD083 /* XDPhotoPickerCoCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 51F2BBC0391D0381EB49C524B5AC35BB /* XDPhotoPickerCoCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC2CD707AE4753D74BCEA88B6E8B0F54 /* XDPhotoPickerCoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F35B54FFB9784451B991FDA87209D47E /* XDPhotoPickerCoCell.m */; };
+		CD809619239D0AB3FAD1F55745640C1E /* photo_unselect@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 800F9E0C624734D92E4724D7FF862547 /* photo_unselect@3x.png */; };
+		DA232065BB849193FC97B2B5E2D1C8A5 /* photo_unselect@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E725111299BFEF047D8C821A278DC7AA /* photo_unselect@2x.png */; };
+		DDE42C68A11E5F24BCDE208D7E0D970A /* NSString+XDPhoto.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D547208D8E99B76B7E22C47E0A484CA /* NSString+XDPhoto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9AB9B9F99346B17F72528D6D089BA61 /* XDPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAE632C0AB2C05DDE3AE9091F17418 /* XDPhotoPicker.m */; };
+		EE93B55C79CEA4BABD09A1C7BBEA991B /* XDPhotoBrowerCoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E84DD33CF341D62D4B7139D8D51255CC /* XDPhotoBrowerCoCell.m */; };
+		F60457715111FF35106DF48829A1B5C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77724B89CB5C2226200DD89F16F0834 /* Foundation.framework */; };
+		FE169A5BF48F23414632DF3D3F954E3E /* photo_unselect_b@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F45242727A2DA53B7CB90D67620E972E /* photo_unselect_b@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A5015F74F43C6A96DD0BA0AE426A217 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5AC53AAF6810AA010715A2E3953185BB;
-			remoteInfo = "XDPhoto-XDPhoto";
-		};
 		52FA91514D7561B6ACA4D05AA8735B4E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -62,82 +55,89 @@
 			remoteGlobalIDString = 60D968E5A7D887541828C251B9D9EDFA;
 			remoteInfo = XDPhoto;
 		};
+		E1CF3A1CE1CD6227F25CBCC4EA77AF4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AC53AAF6810AA010715A2E3953185BB;
+			remoteInfo = "XDPhoto-XDPhoto";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009E33DA5093F9D78B712F5AD5A21C50 /* XDSelectItemViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XDSelectItemViewController.h; sourceTree = "<group>"; };
-		0360118CC6C24952590FF098A7E28589 /* Pods_XDPhoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XDPhoto_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02346381FC9BAF6807BA2B9838B3AF78 /* photo_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_down@3x.png"; path = "XDPhoto/Assets/photo_down@3x.png"; sourceTree = "<group>"; };
+		0360118CC6C24952590FF098A7E28589 /* Pods_XDPhoto_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XDPhoto_Example.framework; path = "Pods-XDPhoto_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06451F148D068ED502C022E210FBCFA9 /* XDPhotoPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XDPhotoPicker.h; sourceTree = "<group>"; };
 		092C1A6520BFDEB40A0DC9832D306616 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		0A15FE09A194018D9662F5CD4DCF7C37 /* Pods-XDPhoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDPhoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0C62B689F2724069C47991AFDCB2FF62 /* photo_unselect_b@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_unselect_b@2x.png"; path = "XDPhoto/Assets/photo_unselect_b@2x.png"; sourceTree = "<group>"; };
+		0A7B683CCC51E768FAB5BAD8C073C2F5 /* XDPhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDPhoto.xcconfig; sourceTree = "<group>"; };
+		18A9CE4E05091D12524A7D5CF074F391 /* XDSelectItemViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XDSelectItemViewController.m; sourceTree = "<group>"; };
 		1A3FA1F8B8D7532623919A7E514EEB07 /* Pods-XDPhoto_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XDPhoto_Example-umbrella.h"; sourceTree = "<group>"; };
-		21279F9BA9B09A60FA63C33921DD0A27 /* XDPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XDPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AACD65F843067FB4778EC39619F11F5 /* UIImage+XDPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XDPhoto.m"; sourceTree = "<group>"; };
-		3C5A1B0F52D40BADD287C7CAFECA4C69 /* UIImage+XDPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XDPhoto.h"; sourceTree = "<group>"; };
+		1CCC9F86CE4C8649F41DC155D60ABE81 /* zh.ll */ = {isa = PBXFileReference; includeInIndex = 1; name = zh.ll; path = XDPhoto/Assets/zh.ll; sourceTree = "<group>"; };
+		1D547208D8E99B76B7E22C47E0A484CA /* NSString+XDPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XDPhoto.h"; sourceTree = "<group>"; };
+		1FA4A94B5E648E09F70E3DD15B8A83E7 /* XDPhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDPhoto-umbrella.h"; sourceTree = "<group>"; };
+		21279F9BA9B09A60FA63C33921DD0A27 /* XDPhoto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XDPhoto.framework; path = XDPhoto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29CA636825665358D1A893F9045FF546 /* photo_unselect_b@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_unselect_b@2x.png"; path = "XDPhoto/Assets/photo_unselect_b@2x.png"; sourceTree = "<group>"; };
+		2ECFE7E1CD0DEB221D75C43C038EB891 /* XDPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XDPhoto.m; path = XDPhoto/Classes/XDPhoto.m; sourceTree = "<group>"; };
+		318EAC9F35240F75BF6DF8878B7B9C4F /* image_video@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "image_video@2x.png"; path = "XDPhoto/Assets/image_video@2x.png"; sourceTree = "<group>"; };
 		3DE65040913ACD1572B4D908BB102965 /* Pods-XDPhoto_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDPhoto_Example-frameworks.sh"; sourceTree = "<group>"; };
+		488D82F82D3992317D25BBF4109B0EFE /* XDSelectItemViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XDSelectItemViewController.h; sourceTree = "<group>"; };
 		4A185517E633CF680091B0A6E465CBB6 /* Pods-XDPhoto_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDPhoto_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E2F5B2DAC4668CE73B47FBDDAEE60CE /* photo_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_selected@3x.png"; path = "XDPhoto/Assets/photo_selected@3x.png"; sourceTree = "<group>"; };
-		550BB839C4D3990FF065B8A18769AD98 /* ResourceBundle-XDPhoto-XDPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XDPhoto-XDPhoto-Info.plist"; sourceTree = "<group>"; };
-		55BF4E551B6D70F69A7E8712B31E3062 /* XDPhotoPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XDPhotoPicker.h; sourceTree = "<group>"; };
+		51F2BBC0391D0381EB49C524B5AC35BB /* XDPhotoPickerCoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XDPhotoPickerCoCell.h; sourceTree = "<group>"; };
 		55F78D00D821770CEF27DDA710AFEE00 /* Pods-XDPhoto_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDPhoto_Example-Info.plist"; sourceTree = "<group>"; };
-		60B39F17D279BEC597FA79E90CF46D5F /* XDPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XDPhoto.m; path = XDPhoto/Classes/XDPhoto.m; sourceTree = "<group>"; };
-		653A2E2383EEC83F0DEBC2BA38D1D7E6 /* XDPhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDPhoto-prefix.pch"; sourceTree = "<group>"; };
-		79473E4611DC279A588D17874E53EA73 /* XDPhotoPickerCoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XDPhotoPickerCoCell.h; sourceTree = "<group>"; };
-		79F9723F34DA3E47FAD54D71D159353A /* photo_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_selected@2x.png"; path = "XDPhoto/Assets/photo_selected@2x.png"; sourceTree = "<group>"; };
-		7A65DB7906F624FEF3BDE23CE946DE37 /* photo_unselect@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_unselect@3x.png"; path = "XDPhoto/Assets/photo_unselect@3x.png"; sourceTree = "<group>"; };
-		7AF47B14138F5E79FA9B8DB754792CDF /* XDSelectItemViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XDSelectItemViewController.m; sourceTree = "<group>"; };
-		7CAE3C7A3B094936C6648289BFA6A404 /* NSString+XDPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDPhoto.m"; sourceTree = "<group>"; };
-		7E72C9D9CC7FB8B7E78B70DD8AE8E55D /* XDPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = XDPhoto.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		7E9FF618FCAE66D2C39091E6447904EE /* XDPhoto-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDPhoto-umbrella.h"; sourceTree = "<group>"; };
-		84256BB9A9BA3C0A61FBACDE05218D5A /* XDPhoto.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDPhoto.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		851348EEBDD595B5E4906469E8E40CC6 /* XDPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XDPhoto-Info.plist"; sourceTree = "<group>"; };
-		85E2665EC81D24288F4DA3A5A41D1FE4 /* image_video@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "image_video@2x.png"; path = "XDPhoto/Assets/image_video@2x.png"; sourceTree = "<group>"; };
-		938C6E3AF0B3CF4836CE1B962FDAB047 /* XDPhotoPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XDPhotoPicker.m; sourceTree = "<group>"; };
+		587B0F7AF28BF33C778CAE69742CAF43 /* XDPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XDPhoto.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D7C76C9241A1AB8FAE2829AD91F864B /* XDPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XDPhoto-Info.plist"; sourceTree = "<group>"; };
+		6323BD19D6B7DD473E592C96C0F4A272 /* photo_selected@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_selected@2x.png"; path = "XDPhoto/Assets/photo_selected@2x.png"; sourceTree = "<group>"; };
+		6A9297D3359AFB1AE6D4EB792D07C3CA /* XDPhoto-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XDPhoto-prefix.pch"; sourceTree = "<group>"; };
+		7A5B4795DCD94C42A1274F8869CC2D56 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		800F9E0C624734D92E4724D7FF862547 /* photo_unselect@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_unselect@3x.png"; path = "XDPhoto/Assets/photo_unselect@3x.png"; sourceTree = "<group>"; };
+		84256BB9A9BA3C0A61FBACDE05218D5A /* XDPhoto.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XDPhoto.bundle; path = "XDPhoto-XDPhoto.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AAAE632C0AB2C05DDE3AE9091F17418 /* XDPhotoPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XDPhotoPicker.m; sourceTree = "<group>"; };
+		8E49019B457EA473ED090801368331AE /* photo_up@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_up@2x.png"; path = "XDPhoto/Assets/photo_up@2x.png"; sourceTree = "<group>"; };
+		900B6E5A6D366A476140934A5DBB42C8 /* XDPhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDPhoto.modulemap; sourceTree = "<group>"; };
+		96FE2712D0C1B86FD6B28A0740066F05 /* photo_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_down@2x.png"; path = "XDPhoto/Assets/photo_down@2x.png"; sourceTree = "<group>"; };
+		974CD64AE5AD8E1DF6512F9A764F2D06 /* XDPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XDPhoto.h; path = XDPhoto/Classes/XDPhoto.h; sourceTree = "<group>"; };
+		98391F67E245A441BC2354F41DD397FA /* UIImage+XDPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XDPhoto.m"; sourceTree = "<group>"; };
 		996EA2AAB164213586CF54EF3A306552 /* Pods-XDPhoto_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDPhoto_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EED4A60EA41C6A78D22C1288AAE6098 /* photo_up@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_up@2x.png"; path = "XDPhoto/Assets/photo_up@2x.png"; sourceTree = "<group>"; };
-		A1D61C396EA8895A990850F8D6C2ED1E /* XDPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XDPhoto.h; path = XDPhoto/Classes/XDPhoto.h; sourceTree = "<group>"; };
-		A68477DB739D87A2864B01E994E3896E /* XDPhotoBrowerCoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowerCoCell.m; sourceTree = "<group>"; };
-		AE36C8A8291A8844477A37B300371B02 /* photo_up@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_up@3x.png"; path = "XDPhoto/Assets/photo_up@3x.png"; sourceTree = "<group>"; };
+		9D3CA996B5384A5D26F1E140B7F797E5 /* en.ll */ = {isa = PBXFileReference; includeInIndex = 1; name = en.ll; path = XDPhoto/Assets/en.ll; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B164CB001701418346C70D8F0ED5AC49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		B77724B89CB5C2226200DD89F16F0834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B8BA79DAAA189FC942D151E33B0ED967 /* photo_down@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_down@2x.png"; path = "XDPhoto/Assets/photo_down@2x.png"; sourceTree = "<group>"; };
-		BCCC5CF78B6922C5A094B08870D905A9 /* photo_unselect_b@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_unselect_b@3x.png"; path = "XDPhoto/Assets/photo_unselect_b@3x.png"; sourceTree = "<group>"; };
-		C44B485A2FB4E4200A0E3DE28A13DD96 /* XDPhoto.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XDPhoto.xcconfig; sourceTree = "<group>"; };
-		C4C53933D59D5407CDA9AA3B3823CDFE /* image_video@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "image_video@3x.png"; path = "XDPhoto/Assets/image_video@3x.png"; sourceTree = "<group>"; };
+		BD05084BD504D9DDC06BC9CB178F0F2F /* XDPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDPhoto-dummy.m"; sourceTree = "<group>"; };
+		C5F962BC5CEECE0298B25F95223A51EC /* photo_selected@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_selected@3x.png"; path = "XDPhoto/Assets/photo_selected@3x.png"; sourceTree = "<group>"; };
+		C630DB9A7C9FE3D9BD54F6ED17D9127D /* ResourceBundle-XDPhoto-XDPhoto-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XDPhoto-XDPhoto-Info.plist"; sourceTree = "<group>"; };
 		C7B7EBF45205BEAEE2A823C929957540 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
-		C83A922FA13CD87979BFBB6873B6682C /* XDPhoto-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XDPhoto-dummy.m"; sourceTree = "<group>"; };
-		D2C25A65B8BFA0C47BC922D48181D6FE /* zh.ll */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = zh.ll; path = XDPhoto/Assets/zh.ll; sourceTree = "<group>"; };
+		C832E6EFC7EE8B7288D2C4C249C8D1D9 /* photo_up@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_up@3x.png"; path = "XDPhoto/Assets/photo_up@3x.png"; sourceTree = "<group>"; };
+		CB2038175FD9E42C115A779E12B96833 /* image_video@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "image_video@3x.png"; path = "XDPhoto/Assets/image_video@3x.png"; sourceTree = "<group>"; };
+		D835EDAC95A402DBF998F70B4415E980 /* NSString+XDPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+XDPhoto.m"; sourceTree = "<group>"; };
 		DDBF183E3A5831E6F22442DE241609E1 /* Pods-XDPhoto_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDPhoto_Example.modulemap"; sourceTree = "<group>"; };
-		E05166279C8E25C4D634925BD321FDED /* NSString+XDPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+XDPhoto.h"; sourceTree = "<group>"; };
-		E591D25CE3EDAC597149D57F352512F5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E97AB828AFA3CA8B93419D2FDC0D9589 /* XDPhotoPickerCoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XDPhotoPickerCoCell.m; sourceTree = "<group>"; };
-		EB56C6ADF910FC5361C01B7D75092A82 /* XDPhoto.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XDPhoto.modulemap; sourceTree = "<group>"; };
-		F08E12DEE5F61E8957BE02C1B335EBC2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		E56CD9ED867E4891955E4A7F0BAE36B2 /* UIImage+XDPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+XDPhoto.h"; sourceTree = "<group>"; };
+		E725111299BFEF047D8C821A278DC7AA /* photo_unselect@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_unselect@2x.png"; path = "XDPhoto/Assets/photo_unselect@2x.png"; sourceTree = "<group>"; };
+		E84DD33CF341D62D4B7139D8D51255CC /* XDPhotoBrowerCoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowerCoCell.m; sourceTree = "<group>"; };
 		F1BB57596A1F540BFEB4AE9E5E7205D5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AssetsLibrary.framework; sourceTree = DEVELOPER_DIR; };
-		F31D356ADDD4C0C072866FDCB7871DC7 /* photo_unselect@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_unselect@2x.png"; path = "XDPhoto/Assets/photo_unselect@2x.png"; sourceTree = "<group>"; };
+		F35B54FFB9784451B991FDA87209D47E /* XDPhotoPickerCoCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XDPhotoPickerCoCell.m; sourceTree = "<group>"; };
 		F3D6CB6160AF70868B7F003EFB4FB57A /* Pods-XDPhoto_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XDPhoto_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F6FCF511860DED5C430AA5E816C38329 /* XDPhotoBrowerCoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowerCoCell.h; sourceTree = "<group>"; };
-		FB91716C50368462BE35E534F1B2AB99 /* en.ll */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.ll; path = XDPhoto/Assets/en.ll; sourceTree = "<group>"; };
+		F45242727A2DA53B7CB90D67620E972E /* photo_unselect_b@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_unselect_b@3x.png"; path = "XDPhoto/Assets/photo_unselect_b@3x.png"; sourceTree = "<group>"; };
+		F7146ECAE7D1DF535ABDE4E27F47483B /* XDPhotoBrowerCoCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowerCoCell.h; sourceTree = "<group>"; };
 		FBB434FBA918DA29694C1F4E509EAA01 /* Pods-XDPhoto_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XDPhoto_Example-dummy.m"; sourceTree = "<group>"; };
-		FE1B47F293A9800BFBF45B73A1CFBC28 /* photo_down@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "photo_down@3x.png"; path = "XDPhoto/Assets/photo_down@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9B92DD96F0B29279D7905FCF5AB93372 /* Frameworks */ = {
+		3388D0FA1776F4849A5FFDC986490D1F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DE4BD0B2DD9BC519AB9857E526F11E8 /* AssetsLibrary.framework in Frameworks */,
-				361AA002FC300F7B869E34D056EEC2CA /* Foundation.framework in Frameworks */,
-				3316093F40A12671F68422ECB69812E4 /* Photos.framework in Frameworks */,
-				EE7B14ABE9CA76E09980B50344A46095 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B4844925AFD7F49BA733E99468F2D3D7 /* Frameworks */ = {
+		6B7F9C3235A32C032B3D9EDC1143AF48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CFCDAEA0CFCFBD2FD43E6FC4CABAC3F /* AssetsLibrary.framework in Frameworks */,
+				F60457715111FF35106DF48829A1B5C0 /* Foundation.framework in Frameworks */,
+				2D565415FE0BC5F97BACD640C7EAC111 /* Photos.framework in Frameworks */,
+				7A94C16164E1BB1E6BC4B9D1BCD5D3B1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,16 +152,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0BC847E312EF5B09582E103DF5D7F4B6 /* XDPhotoPicker */ = {
+		2C1AF8395313CA62D5153C20AF8699D7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				55BF4E551B6D70F69A7E8712B31E3062 /* XDPhotoPicker.h */,
-				938C6E3AF0B3CF4836CE1B962FDAB047 /* XDPhotoPicker.m */,
-				79473E4611DC279A588D17874E53EA73 /* XDPhotoPickerCoCell.h */,
-				E97AB828AFA3CA8B93419D2FDC0D9589 /* XDPhotoPickerCoCell.m */,
+				C630DB9A7C9FE3D9BD54F6ED17D9127D /* ResourceBundle-XDPhoto-XDPhoto-Info.plist */,
+				900B6E5A6D366A476140934A5DBB42C8 /* XDPhoto.modulemap */,
+				0A7B683CCC51E768FAB5BAD8C073C2F5 /* XDPhoto.xcconfig */,
+				BD05084BD504D9DDC06BC9CB178F0F2F /* XDPhoto-dummy.m */,
+				5D7C76C9241A1AB8FAE2829AD91F864B /* XDPhoto-Info.plist */,
+				6A9297D3359AFB1AE6D4EB792D07C3CA /* XDPhoto-prefix.pch */,
+				1FA4A94B5E648E09F70E3DD15B8A83E7 /* XDPhoto-umbrella.h */,
 			);
-			name = XDPhotoPicker;
-			path = XDPhoto/Classes/XDPhotoPicker;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XDPhoto";
+			sourceTree = "<group>";
+		};
+		4B4A3982C1B0B003A5380E5CFBB7A7EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9D3CA996B5384A5D26F1E140B7F797E5 /* en.ll */,
+				318EAC9F35240F75BF6DF8878B7B9C4F /* image_video@2x.png */,
+				CB2038175FD9E42C115A779E12B96833 /* image_video@3x.png */,
+				96FE2712D0C1B86FD6B28A0740066F05 /* photo_down@2x.png */,
+				02346381FC9BAF6807BA2B9838B3AF78 /* photo_down@3x.png */,
+				6323BD19D6B7DD473E592C96C0F4A272 /* photo_selected@2x.png */,
+				C5F962BC5CEECE0298B25F95223A51EC /* photo_selected@3x.png */,
+				E725111299BFEF047D8C821A278DC7AA /* photo_unselect@2x.png */,
+				800F9E0C624734D92E4724D7FF862547 /* photo_unselect@3x.png */,
+				29CA636825665358D1A893F9045FF546 /* photo_unselect_b@2x.png */,
+				F45242727A2DA53B7CB90D67620E972E /* photo_unselect_b@3x.png */,
+				8E49019B457EA473ED090801368331AE /* photo_up@2x.png */,
+				C832E6EFC7EE8B7288D2C4C249C8D1D9 /* photo_up@3x.png */,
+				1CCC9F86CE4C8649F41DC155D60ABE81 /* zh.ll */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		51FD9636D32B3D10AC0FA5A06F62DF03 /* XDPhotoBrower */ = {
+			isa = PBXGroup;
+			children = (
+				F7146ECAE7D1DF535ABDE4E27F47483B /* XDPhotoBrowerCoCell.h */,
+				E84DD33CF341D62D4B7139D8D51255CC /* XDPhotoBrowerCoCell.m */,
+			);
+			name = XDPhotoBrower;
+			path = XDPhoto/Classes/XDPhotoBrower;
 			sourceTree = "<group>";
 		};
 		5205A9C57B55E7B49AB59D5F2B23E7E0 /* Products */ = {
@@ -172,6 +206,22 @@
 				21279F9BA9B09A60FA63C33921DD0A27 /* XDPhoto.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		611E1A48E6900912E7A2567786078BE7 /* XDPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				974CD64AE5AD8E1DF6512F9A764F2D06 /* XDPhoto.h */,
+				2ECFE7E1CD0DEB221D75C43C038EB891 /* XDPhoto.m */,
+				C0958145992575C36FB493AD4F484365 /* Other */,
+				DF43ECF3C657052C144A49C14D0BC391 /* Pod */,
+				4B4A3982C1B0B003A5380E5CFBB7A7EC /* Resources */,
+				2C1AF8395313CA62D5153C20AF8699D7 /* Support Files */,
+				51FD9636D32B3D10AC0FA5A06F62DF03 /* XDPhotoBrower */,
+				994412B9E45F308753B18321A2C4387C /* XDPhotoPicker */,
+			);
+			name = XDPhoto;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		657B72F812A08C8CD24A00E6786271C5 /* iOS */ = {
@@ -185,88 +235,24 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6DB955F370CD6B231BECE5A4B72D4D4E /* XDPhoto */ = {
+		994412B9E45F308753B18321A2C4387C /* XDPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				A1D61C396EA8895A990850F8D6C2ED1E /* XDPhoto.h */,
-				60B39F17D279BEC597FA79E90CF46D5F /* XDPhoto.m */,
-				9D0141C1FCD8E3DBD78095AE2F5DF824 /* Other */,
-				CFA8BEF0D2329ECA08A0594E3A1F325B /* Pod */,
-				B0DEC5575E5D71B338A0B78E3F3C7320 /* Resources */,
-				9AAB81C4DBBD2964183AA630EAE4F358 /* Support Files */,
-				B10436679F60A332A9F7EBB7DC249719 /* XDPhotoBrower */,
-				0BC847E312EF5B09582E103DF5D7F4B6 /* XDPhotoPicker */,
+				06451F148D068ED502C022E210FBCFA9 /* XDPhotoPicker.h */,
+				8AAAE632C0AB2C05DDE3AE9091F17418 /* XDPhotoPicker.m */,
+				51F2BBC0391D0381EB49C524B5AC35BB /* XDPhotoPickerCoCell.h */,
+				F35B54FFB9784451B991FDA87209D47E /* XDPhotoPickerCoCell.m */,
 			);
-			name = XDPhoto;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9AAB81C4DBBD2964183AA630EAE4F358 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				550BB839C4D3990FF065B8A18769AD98 /* ResourceBundle-XDPhoto-XDPhoto-Info.plist */,
-				EB56C6ADF910FC5361C01B7D75092A82 /* XDPhoto.modulemap */,
-				C44B485A2FB4E4200A0E3DE28A13DD96 /* XDPhoto.xcconfig */,
-				C83A922FA13CD87979BFBB6873B6682C /* XDPhoto-dummy.m */,
-				851348EEBDD595B5E4906469E8E40CC6 /* XDPhoto-Info.plist */,
-				653A2E2383EEC83F0DEBC2BA38D1D7E6 /* XDPhoto-prefix.pch */,
-				7E9FF618FCAE66D2C39091E6447904EE /* XDPhoto-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XDPhoto";
-			sourceTree = "<group>";
-		};
-		9D0141C1FCD8E3DBD78095AE2F5DF824 /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				E05166279C8E25C4D634925BD321FDED /* NSString+XDPhoto.h */,
-				7CAE3C7A3B094936C6648289BFA6A404 /* NSString+XDPhoto.m */,
-				3C5A1B0F52D40BADD287C7CAFECA4C69 /* UIImage+XDPhoto.h */,
-				2AACD65F843067FB4778EC39619F11F5 /* UIImage+XDPhoto.m */,
-				009E33DA5093F9D78B712F5AD5A21C50 /* XDSelectItemViewController.h */,
-				7AF47B14138F5E79FA9B8DB754792CDF /* XDSelectItemViewController.m */,
-			);
-			name = Other;
-			path = XDPhoto/Classes/Other;
+			name = XDPhotoPicker;
+			path = XDPhoto/Classes/XDPhotoPicker;
 			sourceTree = "<group>";
 		};
 		A5E2103190402B818C34B793DA4872AD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6DB955F370CD6B231BECE5A4B72D4D4E /* XDPhoto */,
+				611E1A48E6900912E7A2567786078BE7 /* XDPhoto */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		B0DEC5575E5D71B338A0B78E3F3C7320 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				FB91716C50368462BE35E534F1B2AB99 /* en.ll */,
-				85E2665EC81D24288F4DA3A5A41D1FE4 /* image_video@2x.png */,
-				C4C53933D59D5407CDA9AA3B3823CDFE /* image_video@3x.png */,
-				B8BA79DAAA189FC942D151E33B0ED967 /* photo_down@2x.png */,
-				FE1B47F293A9800BFBF45B73A1CFBC28 /* photo_down@3x.png */,
-				79F9723F34DA3E47FAD54D71D159353A /* photo_selected@2x.png */,
-				4E2F5B2DAC4668CE73B47FBDDAEE60CE /* photo_selected@3x.png */,
-				F31D356ADDD4C0C072866FDCB7871DC7 /* photo_unselect@2x.png */,
-				7A65DB7906F624FEF3BDE23CE946DE37 /* photo_unselect@3x.png */,
-				0C62B689F2724069C47991AFDCB2FF62 /* photo_unselect_b@2x.png */,
-				BCCC5CF78B6922C5A094B08870D905A9 /* photo_unselect_b@3x.png */,
-				9EED4A60EA41C6A78D22C1288AAE6098 /* photo_up@2x.png */,
-				AE36C8A8291A8844477A37B300371B02 /* photo_up@3x.png */,
-				D2C25A65B8BFA0C47BC922D48181D6FE /* zh.ll */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		B10436679F60A332A9F7EBB7DC249719 /* XDPhotoBrower */ = {
-			isa = PBXGroup;
-			children = (
-				F6FCF511860DED5C430AA5E816C38329 /* XDPhotoBrowerCoCell.h */,
-				A68477DB739D87A2864B01E994E3896E /* XDPhotoBrowerCoCell.m */,
-			);
-			name = XDPhotoBrower;
-			path = XDPhoto/Classes/XDPhotoBrower;
 			sourceTree = "<group>";
 		};
 		B4D9690E5A46F4FA73F6BC4DB2973227 /* Pods-XDPhoto_Example */ = {
@@ -294,6 +280,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C0958145992575C36FB493AD4F484365 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				1D547208D8E99B76B7E22C47E0A484CA /* NSString+XDPhoto.h */,
+				D835EDAC95A402DBF998F70B4415E980 /* NSString+XDPhoto.m */,
+				E56CD9ED867E4891955E4A7F0BAE36B2 /* UIImage+XDPhoto.h */,
+				98391F67E245A441BC2354F41DD397FA /* UIImage+XDPhoto.m */,
+				488D82F82D3992317D25BBF4109B0EFE /* XDSelectItemViewController.h */,
+				18A9CE4E05091D12524A7D5CF074F391 /* XDSelectItemViewController.m */,
+			);
+			name = Other;
+			path = XDPhoto/Classes/Other;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -305,22 +305,22 @@
 			);
 			sourceTree = "<group>";
 		};
-		CFA8BEF0D2329ECA08A0594E3A1F325B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F08E12DEE5F61E8957BE02C1B335EBC2 /* LICENSE */,
-				E591D25CE3EDAC597149D57F352512F5 /* README.md */,
-				7E72C9D9CC7FB8B7E78B70DD8AE8E55D /* XDPhoto.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		DDB872879E5BD2C839FDA433D1E06533 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				B4D9690E5A46F4FA73F6BC4DB2973227 /* Pods-XDPhoto_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DF43ECF3C657052C144A49C14D0BC391 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7A5B4795DCD94C42A1274F8869CC2D56 /* LICENSE */,
+				B164CB001701418346C70D8F0ED5AC49 /* README.md */,
+				587B0F7AF28BF33C778CAE69742CAF43 /* XDPhoto.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,18 +334,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F12A8BD03EBBF86508807621249F4378 /* Headers */ = {
+		871E1771A9CAE785B4D4B8A30317A9A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DFED955BD760E233F1A97030D750523 /* NSString+XDPhoto.h in Headers */,
-				4A929B98728C4BE76C4F9515F4D4034F /* UIImage+XDPhoto.h in Headers */,
-				C44E6DEB53C0EC5E02F44F6F24F346D1 /* XDPhoto-umbrella.h in Headers */,
-				1DBB266DD3F39B6643173195EEE4C11E /* XDPhoto.h in Headers */,
-				7730ADFDF7D970C0A26C0C4047478781 /* XDPhotoBrowerCoCell.h in Headers */,
-				7C279CF762AF7ED59D474E8E9F10D823 /* XDPhotoPicker.h in Headers */,
-				706A856FE2651014D53C911029A717C7 /* XDPhotoPickerCoCell.h in Headers */,
-				5BFCC4840FAA80F47B42D9F86BE46443 /* XDSelectItemViewController.h in Headers */,
+				DDE42C68A11E5F24BCDE208D7E0D970A /* NSString+XDPhoto.h in Headers */,
+				6F34E994FE8210432083314387B5F2E4 /* UIImage+XDPhoto.h in Headers */,
+				6C6EB3A9ADD1D51B3E689571049D4D25 /* XDPhoto-umbrella.h in Headers */,
+				1EFED1AC07009F0245FCC0BA180CF584 /* XDPhoto.h in Headers */,
+				937C5B127643F107220E907314B01A45 /* XDPhotoBrowerCoCell.h in Headers */,
+				6A727F6FEC22CFAC0EE32E56019E6035 /* XDPhotoPicker.h in Headers */,
+				B9EC572BA6FFC10FE28BA75A8A9BD083 /* XDPhotoPickerCoCell.h in Headers */,
+				A2AA01DA6D864AF152C357F86507E19D /* XDSelectItemViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,11 +373,11 @@
 		};
 		5AC53AAF6810AA010715A2E3953185BB /* XDPhoto-XDPhoto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 91CA3C48C4C77A821CE3E8BB1223B6AF /* Build configuration list for PBXNativeTarget "XDPhoto-XDPhoto" */;
+			buildConfigurationList = 3888E5B3A57B8E96EAE6EF168951D6F8 /* Build configuration list for PBXNativeTarget "XDPhoto-XDPhoto" */;
 			buildPhases = (
-				AAF60214A210600AA3C9CB0C44065358 /* Sources */,
-				B4844925AFD7F49BA733E99468F2D3D7 /* Frameworks */,
-				AF12A36DDEFEE65865221B5370BCA19B /* Resources */,
+				031B86116365684D116F625D9C5B36EE /* Sources */,
+				3388D0FA1776F4849A5FFDC986490D1F /* Frameworks */,
+				8752AE6BD64190BBF3A6189D820D6B1D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -390,17 +390,17 @@
 		};
 		60D968E5A7D887541828C251B9D9EDFA /* XDPhoto */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 584E395B896664277EEDA2F475E6E038 /* Build configuration list for PBXNativeTarget "XDPhoto" */;
+			buildConfigurationList = 605C62463BD3A6CB5B1428814FD11192 /* Build configuration list for PBXNativeTarget "XDPhoto" */;
 			buildPhases = (
-				F12A8BD03EBBF86508807621249F4378 /* Headers */,
-				BBE7385FC402FCB6C09B48ADC69DCC73 /* Sources */,
-				9B92DD96F0B29279D7905FCF5AB93372 /* Frameworks */,
-				D4247E5CCB72AC449F5956752E8DCCEC /* Resources */,
+				871E1771A9CAE785B4D4B8A30317A9A0 /* Headers */,
+				2EB965A62BAF2A1E5F2EE277D61A831D /* Sources */,
+				6B7F9C3235A32C032B3D9EDC1143AF48 /* Frameworks */,
+				81C839C550F97BA886A79CD12DB743D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				08ABD819543572209E031E6C97446CF8 /* PBXTargetDependency */,
+				7C7EC276D7E1E286AECCDB70D62D001F /* PBXTargetDependency */,
 			);
 			name = XDPhoto;
 			productName = XDPhoto;
@@ -437,24 +437,32 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AF12A36DDEFEE65865221B5370BCA19B /* Resources */ = {
+		81C839C550F97BA886A79CD12DB743D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBFC18A2F458DA13362965D8424FC6FF /* en.ll in Resources */,
-				A8CB6F3882633FDC98B41418AC0142B3 /* image_video@2x.png in Resources */,
-				C5F771CA8D387C12FDAA5A3A801D9BF7 /* image_video@3x.png in Resources */,
-				0821D6DDDE5158F8192BD4882FEC8DC1 /* photo_down@2x.png in Resources */,
-				C2BA95C49774AE0F7496C08B59C28A4B /* photo_down@3x.png in Resources */,
-				A967FBF2550D1DCEDD98342F36EFC291 /* photo_selected@2x.png in Resources */,
-				6126DF6CF79280D718452987114FD019 /* photo_selected@3x.png in Resources */,
-				63DCD5E996C944CC00DA9771A78CB3C3 /* photo_unselect@2x.png in Resources */,
-				0A4BF02FA300AD646BA99BA60A362BEF /* photo_unselect@3x.png in Resources */,
-				A5DFD75B1D189902DA071FFF565DBDFF /* photo_unselect_b@2x.png in Resources */,
-				2E7E2B0A611D6CF7A0449C572A404CD1 /* photo_unselect_b@3x.png in Resources */,
-				F7393F8DAD754A149408417EC1158B78 /* photo_up@2x.png in Resources */,
-				43B81859D21F7BA4AFA1F04D365719C8 /* photo_up@3x.png in Resources */,
-				8A15A982245EC397D5DC43A826BE578B /* zh.ll in Resources */,
+				625117E6B6A617A24EEC23B5EBDD9726 /* XDPhoto.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8752AE6BD64190BBF3A6189D820D6B1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F93E2A3A2488CFBB2D0DE0EE31E637C /* en.ll in Resources */,
+				583DAA86C84A30F420A88EB60A9ACFA3 /* image_video@2x.png in Resources */,
+				7AC16D17698E7372516987F9458CB7BA /* image_video@3x.png in Resources */,
+				7EEDEEF278DA6CAE16F37648362412D2 /* photo_down@2x.png in Resources */,
+				10AB9AB5122A13B6889892E54E6CE727 /* photo_down@3x.png in Resources */,
+				12E0BA28E28AE5F1030D60F097C989F3 /* photo_selected@2x.png in Resources */,
+				043B22E62B17582A7D100E0B14242C42 /* photo_selected@3x.png in Resources */,
+				DA232065BB849193FC97B2B5E2D1C8A5 /* photo_unselect@2x.png in Resources */,
+				CD809619239D0AB3FAD1F55745640C1E /* photo_unselect@3x.png in Resources */,
+				6A407A0335F0753CC3FCC366D3A2F827 /* photo_unselect_b@2x.png in Resources */,
+				FE169A5BF48F23414632DF3D3F954E3E /* photo_unselect_b@3x.png in Resources */,
+				3B28634F0D073E7A305AD7E8F1DAA10B /* photo_up@2x.png in Resources */,
+				51EF05DB916147174AD8AD08BFCE8B7E /* photo_up@3x.png in Resources */,
+				106A760C8FBA3FCB7ADFBF1053860BBC /* zh.ll in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,17 +473,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D4247E5CCB72AC449F5956752E8DCCEC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0A327198799931287EF028D519B44258 /* XDPhoto.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		031B86116365684D116F625D9C5B36EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB965A62BAF2A1E5F2EE277D61A831D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16E8B104114EB3FE6BF4AAF152058DBC /* NSString+XDPhoto.m in Sources */,
+				8E31C334A5B7BA2C0B78F894CAD28E33 /* UIImage+XDPhoto.m in Sources */,
+				95C311A7B629961640ADA70BD8BA6021 /* XDPhoto-dummy.m in Sources */,
+				1FF9328B1A03F6415E546156E924744D /* XDPhoto.m in Sources */,
+				EE93B55C79CEA4BABD09A1C7BBEA991B /* XDPhotoBrowerCoCell.m in Sources */,
+				E9AB9B9F99346B17F72528D6D089BA61 /* XDPhotoPicker.m in Sources */,
+				CC2CD707AE4753D74BCEA88B6E8B0F54 /* XDPhotoPickerCoCell.m in Sources */,
+				B7CDC6D8B77330DBC18CF055CDA906C3 /* XDSelectItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93DE3011ACCD09939E3DD0CB19773F93 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,36 +506,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAF60214A210600AA3C9CB0C44065358 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BBE7385FC402FCB6C09B48ADC69DCC73 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D84E2984027258098C10B98DB9CCECBF /* NSString+XDPhoto.m in Sources */,
-				C02096CC887F5CD2C7D33CE85FA1C597 /* UIImage+XDPhoto.m in Sources */,
-				E29C638F15E177A8B578EEA44012F6F8 /* XDPhoto-dummy.m in Sources */,
-				B060A8944FC1C0F641194779FC022525 /* XDPhoto.m in Sources */,
-				7CEF7CE86BB95CDBE64C4A0C3D1A69EB /* XDPhotoBrowerCoCell.m in Sources */,
-				FA017DFBADDFC8A836AE25AA564D9E42 /* XDPhotoPicker.m in Sources */,
-				13C0586D6CAADB93ABF79BAAED7A5C94 /* XDPhotoPickerCoCell.m in Sources */,
-				9AE08424592C3A14F733C596E2277C68 /* XDSelectItemViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08ABD819543572209E031E6C97446CF8 /* PBXTargetDependency */ = {
+		7C7EC276D7E1E286AECCDB70D62D001F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "XDPhoto-XDPhoto";
 			target = 5AC53AAF6810AA010715A2E3953185BB /* XDPhoto-XDPhoto */;
-			targetProxy = 3A5015F74F43C6A96DD0BA0AE426A217 /* PBXContainerItemProxy */;
+			targetProxy = E1CF3A1CE1CD6227F25CBCC4EA77AF4D /* PBXContainerItemProxy */;
 		};
 		E9C88681591F4578C9809A8ABCA7B1CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -558,9 +558,9 @@
 			};
 			name = Release;
 		};
-		1CF73FC10B5DC9EF1548D5D587F8759E /* Release */ = {
+		22DBEE75DAC32FA20193A3A35C3ACAE2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C44B485A2FB4E4200A0E3DE28A13DD96 /* XDPhoto.xcconfig */;
+			baseConfigurationReference = 0A7B683CCC51E768FAB5BAD8C073C2F5 /* XDPhoto.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XDPhoto";
@@ -572,37 +572,6 @@
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		731EA19FEF152DFE19866B799A7D2121 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C44B485A2FB4E4200A0E3DE28A13DD96 /* XDPhoto.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XDPhoto/XDPhoto-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XDPhoto/XDPhoto-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XDPhoto/XDPhoto.modulemap";
-				PRODUCT_MODULE_NAME = XDPhoto;
-				PRODUCT_NAME = XDPhoto;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -659,7 +628,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -762,9 +732,40 @@
 			};
 			name = Debug;
 		};
-		ADD046667A552B4110BA83DB483FD8B4 /* Debug */ = {
+		A2B673A098A6CCE18A69156B557ECF40 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C44B485A2FB4E4200A0E3DE28A13DD96 /* XDPhoto.xcconfig */;
+			baseConfigurationReference = 0A7B683CCC51E768FAB5BAD8C073C2F5 /* XDPhoto.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XDPhoto/XDPhoto-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XDPhoto/XDPhoto-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XDPhoto/XDPhoto.modulemap";
+				PRODUCT_MODULE_NAME = XDPhoto;
+				PRODUCT_NAME = XDPhoto;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1D16BA6A497BDCD42795B462F0FFDAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A7B683CCC51E768FAB5BAD8C073C2F5 /* XDPhoto.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XDPhoto";
@@ -779,9 +780,9 @@
 			};
 			name = Debug;
 		};
-		B7C730545A86FFA01DD8653BDC9DC0B5 /* Debug */ = {
+		F94822BF9F54EB8C07F6E37F3E9086AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C44B485A2FB4E4200A0E3DE28A13DD96 /* XDPhoto.xcconfig */;
+			baseConfigurationReference = 0A7B683CCC51E768FAB5BAD8C073C2F5 /* XDPhoto.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -812,6 +813,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3888E5B3A57B8E96EAE6EF168951D6F8 /* Build configuration list for PBXNativeTarget "XDPhoto-XDPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1D16BA6A497BDCD42795B462F0FFDAC /* Debug */,
+				22DBEE75DAC32FA20193A3A35C3ACAE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -821,20 +831,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		584E395B896664277EEDA2F475E6E038 /* Build configuration list for PBXNativeTarget "XDPhoto" */ = {
+		605C62463BD3A6CB5B1428814FD11192 /* Build configuration list for PBXNativeTarget "XDPhoto" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B7C730545A86FFA01DD8653BDC9DC0B5 /* Debug */,
-				731EA19FEF152DFE19866B799A7D2121 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		91CA3C48C4C77A821CE3E8BB1223B6AF /* Build configuration list for PBXNativeTarget "XDPhoto-XDPhoto" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADD046667A552B4110BA83DB483FD8B4 /* Debug */,
-				1CF73FC10B5DC9EF1548D5D587F8759E /* Release */,
+				F94822BF9F54EB8C07F6E37F3E9086AF /* Debug */,
+				A2B673A098A6CCE18A69156B557ECF40 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
