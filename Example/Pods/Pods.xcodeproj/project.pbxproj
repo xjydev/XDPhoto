@@ -12,12 +12,10 @@
 		1FCFCAE1ED2E780F7BF751AF864AE4EE /* Pods-XDPhoto_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDBFED6E51AD31305042B1401B4139B6 /* Pods-XDPhoto_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E3F1634F1591B2C4D56E43ADD57FC3D /* Pods-XDPhoto_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A895B3646768441C392A311995F2184A /* Pods-XDPhoto_Example-dummy.m */; };
 		4EB6905AFFAF2482F31445B5CA686FB9 /* Pods-XDPhoto_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB283BBD119560F295AB481AE00D76F /* Pods-XDPhoto_Tests-dummy.m */; };
+		6C6371E5236A9081000C2ED1 /* XDPhotoPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6371E3236A9081000C2ED1 /* XDPhotoPicker.h */; };
+		6C6371E6236A9081000C2ED1 /* XDPhotoPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6371E4236A9081000C2ED1 /* XDPhotoPicker.m */; };
 		6C8C159C21ABE17500AC754A /* XDPhotoBrowerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8C159A21ABE17500AC754A /* XDPhotoBrowerViewController.h */; };
 		6C8C159D21ABE17500AC754A /* XDPhotoBrowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C159B21ABE17500AC754A /* XDPhotoBrowerViewController.m */; };
-		6C8C15A021ABE18700AC754A /* XDPhotoListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8C159E21ABE18700AC754A /* XDPhotoListViewController.h */; };
-		6C8C15A121ABE18700AC754A /* XDPhotoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C159F21ABE18700AC754A /* XDPhotoListViewController.m */; };
-		6C8C15A421ABE19700AC754A /* XDPhotoPickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8C15A221ABE19700AC754A /* XDPhotoPickerViewController.h */; };
-		6C8C15A521ABE19700AC754A /* XDPhotoPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8C15A321ABE19700AC754A /* XDPhotoPickerViewController.m */; };
 		704965528D60335FBB9E009F08BFE4C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		777806024585AB5EBFFAA84F10233E51 /* XDPhoto-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE8620F8C60CB7299BF510DD066CB19F /* XDPhoto-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9596FF7C6725A93EAFB9852788C7089A /* Pods-XDPhoto_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCB0FE9009E848EE871DC5EB7FFDC6A6 /* Pods-XDPhoto_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -55,12 +53,10 @@
 		5D26CD8129D7D90002DBDB9618E51BE2 /* XDPhoto.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XDPhoto.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68BA8C7EAFBCD272C6E32EF4316C9EF4 /* Pods-XDPhoto_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XDPhoto_Example-resources.sh"; sourceTree = "<group>"; };
+		6C6371E3236A9081000C2ED1 /* XDPhotoPicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPhotoPicker.h; sourceTree = "<group>"; };
+		6C6371E4236A9081000C2ED1 /* XDPhotoPicker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPhotoPicker.m; sourceTree = "<group>"; };
 		6C8C159A21ABE17500AC754A /* XDPhotoBrowerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPhotoBrowerViewController.h; sourceTree = "<group>"; };
 		6C8C159B21ABE17500AC754A /* XDPhotoBrowerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPhotoBrowerViewController.m; sourceTree = "<group>"; };
-		6C8C159E21ABE18700AC754A /* XDPhotoListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPhotoListViewController.h; sourceTree = "<group>"; };
-		6C8C159F21ABE18700AC754A /* XDPhotoListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPhotoListViewController.m; sourceTree = "<group>"; };
-		6C8C15A221ABE19700AC754A /* XDPhotoPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XDPhotoPickerViewController.h; sourceTree = "<group>"; };
-		6C8C15A321ABE19700AC754A /* XDPhotoPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDPhotoPickerViewController.m; sourceTree = "<group>"; };
 		6D2220042737F30707A9B5BF0CDD48E1 /* Pods-XDPhoto_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XDPhoto_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7CAF9F04F6D3A329D78101DFCF51F2BF /* Pods-XDPhoto_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XDPhoto_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F89E5F98EE8267667A35BAC8A135351 /* Pods-XDPhoto_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XDPhoto_Tests.modulemap"; sourceTree = "<group>"; };
@@ -175,16 +171,6 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		6C8C159721ABE15F00AC754A /* XDPhotoList */ = {
-			isa = PBXGroup;
-			children = (
-				6C8C159E21ABE18700AC754A /* XDPhotoListViewController.h */,
-				6C8C159F21ABE18700AC754A /* XDPhotoListViewController.m */,
-			);
-			name = XDPhotoList;
-			path = XDPhoto/Classes/XDPhotoList;
-			sourceTree = "<group>";
-		};
 		6C8C159821ABE15F00AC754A /* XDPhotoBrower */ = {
 			isa = PBXGroup;
 			children = (
@@ -198,8 +184,8 @@
 		6C8C159921ABE15F00AC754A /* XDPhotoPicker */ = {
 			isa = PBXGroup;
 			children = (
-				6C8C15A221ABE19700AC754A /* XDPhotoPickerViewController.h */,
-				6C8C15A321ABE19700AC754A /* XDPhotoPickerViewController.m */,
+				6C6371E3236A9081000C2ED1 /* XDPhotoPicker.h */,
+				6C6371E4236A9081000C2ED1 /* XDPhotoPicker.m */,
 			);
 			name = XDPhotoPicker;
 			path = XDPhoto/Classes/XDPhotoPicker;
@@ -246,7 +232,6 @@
 			isa = PBXGroup;
 			children = (
 				6C8C159821ABE15F00AC754A /* XDPhotoBrower */,
-				6C8C159721ABE15F00AC754A /* XDPhotoList */,
 				6C8C159921ABE15F00AC754A /* XDPhotoPicker */,
 				7745D6D73CD24FEFFAD7EA141B74DCE5 /* Pod */,
 				FCDF577075F7A7691E4ECCF564F6CBBA /* Support Files */,
@@ -294,8 +279,7 @@
 			files = (
 				1FCFCAE1ED2E780F7BF751AF864AE4EE /* Pods-XDPhoto_Example-umbrella.h in Headers */,
 				6C8C159C21ABE17500AC754A /* XDPhotoBrowerViewController.h in Headers */,
-				6C8C15A421ABE19700AC754A /* XDPhotoPickerViewController.h in Headers */,
-				6C8C15A021ABE18700AC754A /* XDPhotoListViewController.h in Headers */,
+				6C6371E5236A9081000C2ED1 /* XDPhotoPicker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +353,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -390,8 +375,7 @@
 			files = (
 				6C8C159D21ABE17500AC754A /* XDPhotoBrowerViewController.m in Sources */,
 				3E3F1634F1591B2C4D56E43ADD57FC3D /* Pods-XDPhoto_Example-dummy.m in Sources */,
-				6C8C15A121ABE18700AC754A /* XDPhotoListViewController.m in Sources */,
-				6C8C15A521ABE19700AC754A /* XDPhotoPickerViewController.m in Sources */,
+				6C6371E6236A9081000C2ED1 /* XDPhotoPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,7 +462,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-XDPhoto_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XDPhoto_Example/Pods-XDPhoto_Example.modulemap";
@@ -728,7 +712,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-XDPhoto_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-XDPhoto_Example/Pods-XDPhoto_Example.modulemap";
