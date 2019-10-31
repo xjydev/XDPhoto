@@ -6,9 +6,6 @@
 //
 
 #import "XDPhotoBrowerViewController.h"
-#import <XDTools/UIView+Border.h>
-#import <XDTools/UIColor+Hex.h>
-#import <XDTools/XDTools.h>
 #import "XDPhotoBrowerCoCell.h"
 #define  cellId @"photobrowercell"
 @interface XDPhotoBrowerViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
@@ -24,10 +21,10 @@
         //下面空一像素的线
         layout.minimumLineSpacing = 0;
         layout.minimumInteritemSpacing = 0;
-        
-        layout.estimatedItemSize = CGSizeMake(kScreenWidth, kScreenHeight);
-        layout.itemSize = CGSizeMake(kScreenWidth, kScreenHeight);
-        _mainCollectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 44 + kStatusBarHeight, kScreenWidth, kScreenHeight -44 - 44 - kStatusBarHeight - kBottomBarHeight) collectionViewLayout:layout];
+//        
+//        layout.estimatedItemSize = CGSizeMake(kScreenWidth, kScreenHeight);
+//        layout.itemSize = CGSizeMake(kScreenWidth, kScreenHeight);
+//        _mainCollectionView = [[UICollectionView alloc]initWithFrame:CGRectMake(0, 44 + kStatusBarHeight, kScreenWidth, kScreenHeight -44 - 44 - kStatusBarHeight - kBottomBarHeight) collectionViewLayout:layout];
         _mainCollectionView.backgroundColor = [UIColor whiteColor];
         [_mainCollectionView registerClass:[XDPhotoBrowerCoCell class] forCellWithReuseIdentifier:cellId];
         _mainCollectionView.delegate = self;

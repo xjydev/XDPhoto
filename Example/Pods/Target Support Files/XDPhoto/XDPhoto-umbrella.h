@@ -10,6 +10,14 @@
 #endif
 #endif
 
+#import "NSString+XDPhoto.h"
+#import "UIImage+XDPhoto.h"
+#import "XDSelectItemViewController.h"
+#import "XDPhoto.h"
+#import "XDPhotoBrowerCoCell.h"
+#import "XDPhotoBrowerViewController.h"
+#import "XDPhotoPicker.h"
+#import "XDPhotoPickerCoCell.h"
 
 FOUNDATION_EXPORT double XDPhotoVersionNumber;
 FOUNDATION_EXPORT const unsigned char XDPhotoVersionString[];

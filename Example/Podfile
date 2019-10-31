@@ -3,6 +3,5 @@ use_frameworks!
 target 'XDPhoto_Example' do
     
   pod 'XDPhoto', :path => '../'
-  pod 'XDTools'
 
 end

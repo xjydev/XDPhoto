@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/xjydev/XDPhoto.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'XDPhoto/Classes/**/*'
   
@@ -38,5 +38,4 @@ TODO: Add long description of the pod here.
 
    s.public_header_files = 'XDPhoto/Classes/**/*.h'
    s.frameworks = 'UIKit', 'Photos', 'AssetsLibrary'
-   s.dependency 'XDTools', '~> 0.2.0'
 end

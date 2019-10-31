@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## XDPhoto
 
-Copyright (c) 2018 xjydev@163.com <jingyuan.xiao@haiwaifenqi.com>
+Copyright (c) 2018 xjydev@163.com <xjydev@163.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
